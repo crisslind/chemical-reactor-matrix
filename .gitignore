@@ -1,0 +1,16 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# Data files (Prevent uploading huge chemical datasets)
+*.csv
+*.tsv
+*.sdf
+*.json
+!requirements.txt
