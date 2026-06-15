@@ -16,3 +16,16 @@ Ensure you have a modern Python environment installed. Then, clone the repositor
 git clone [https://github.com/crisslind/chemical-reactor-matrix.git](https://github.com/crisslind/chemical-reactor-matrix.git)
 cd chemical-reactor-matrix
 pip install -r requirements.txt
+
+Options and Parameters:
+-s, --scaffolds: Path to your target scaffolds file (.csv, .tsv, .sdf) or a single raw SMILES string.
+
+-b, --building_blocks: Path to your building block library metadata matrix (.csv, .tsv, .json).
+
+-o, --output: Name/destination path of the output CSV file (Default: library_output.csv).
+
+-w, --workers: Explicitly override default CPU core allocation.
+
+--max_mw: Cutoff ceiling for maximum product Molecular Weight (Default: 2000.0).
+
+--max_logp: Cutoff ceiling for maximum product LogP (Default: 20.0).
