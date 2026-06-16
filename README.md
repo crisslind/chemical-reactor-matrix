@@ -31,6 +31,8 @@ python reaction_enumerator.py -s scaffolds.csv -b catalog.csv -o output_library.
 
 -w, --workers: Explicitly override default CPU core allocation.
 
+-r, --reaction: Specify a single or multiple reactions to try. (Default: use all).
+
 --max_mw: Cutoff ceiling for maximum product Molecular Weight (Default: 2000.0).
 
 --max_logp: Cutoff ceiling for maximum product LogP (Default: 20.0).
